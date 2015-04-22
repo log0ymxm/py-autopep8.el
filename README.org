@@ -38,7 +38,13 @@ To customize the behaviour of =autopep8= you can set the =py-autopep8-options= e
 
 ** Functions
 
-=M-x py-autopep8-buffer=: Uses the =autopep8= tool to reformat the current buffer.
+- =M-x py-autopep8-buffer=: Uses the =autopep8= tool to reformat the current buffer.
+
+
+** FAQ
+
+- Q: Using =py-autopep8= on some files freezes Emacs. What to do?
+- A: Try limiting the maximum number of passes by setting =--pep8-passes=.
 
 
 ** Bugs and improvements
